@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/*Обнуление*/
+
+@import url(d:\#projects_layout\project2_gulp\#src\scss\null.css);
+
+/*--------------------*/
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #222226;
+  color: #aaaaaa;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.header {
+  height: 100px;
+}
+
+.header__img {
+  height: 100px;
+}
+
+.header__row {
+  background-color: #c70101;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container {
+  background-color: #333336;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.navigation__menu-naviganion-row {
+  margin: 0px 10px 0px 0px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  background-color: #333336;
+}
+
+.navigation__menu-navigation-item {
+  border-radius: 10px;
+  background-color: #c70101;
+  color: white;
+  padding: 5px 20px;
+  margin: 0px 10px;
+}
+
+.navigation__menu-navigation-item a {
+  color: white;
+  font-size: 30px;
+}
+
+.content__block {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.content__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.content__item {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background-color: #282844;
+  text-align: center;
+}
+
+.content__title {
+  text-transform: uppercase;
+}
+
+.content__button {
+  padding: 4px;
+  font-size: 20px;
+}
+
+.content__button p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.video {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.video__video-row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video__item {
+  text-align: center;
+}
+
+.video p {
+  margin: 3px 3px;
+  padding: 4px 4px;
+  border: 1px solid #aaaaaa;
+  background-color: #222226;
+}
+
+.video p a {
+  color: #aaaaaa;
+  font-size: 20px;
+}
+
+.footer__row {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
+@supports (-webkit-appearance:none){
+
+}

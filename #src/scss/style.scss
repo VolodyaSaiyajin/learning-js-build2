@@ -1,0 +1,163 @@
+/*Обнуление*/
+@import "null.css";
+/*--------------------*/
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #222226;
+	color: #aaaaaa;
+}
+
+html {
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.header {
+	height: 100px;
+	&__logo {
+	}
+	&__img {
+		height: 100px;
+	}
+	&__row {
+		background-color: #c70101;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__block2 {
+	}
+}
+
+.container {
+	background-color: #333336;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+.navigation {
+	&__menu-naviganion-row {
+		margin: 0px 10px 0px 0px;
+		padding: 10px;
+		display: flex;
+		border-radius: 10px;
+		background-color: #333336;
+	}
+
+	&__menu-navigation-column {
+	}
+
+	&__menu-navigation-item {
+		border-radius: 10px;
+		background-color: #c70101;
+		color: white;
+		padding: 5px 20px;
+		margin: 0px 10px;
+		& a {
+			color: rgb(255, 255, 255);
+			font-size: 30px;
+		}
+	}
+}
+
+// content
+.content {
+	&__block {
+		flex: 1 1 auto;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	&__item {
+		margin: 10px 10px;
+		padding: 10px 10px;
+		background-color: #282844;
+		text-align: center;
+	}
+
+	&__title {
+		text-transform: uppercase;
+	}
+
+	&__discription {
+	}
+
+	&__button {
+		padding: 4px;
+		font-size: 20px;
+		p {
+			padding: 10px;
+		font-size: 20px;
+		}
+	}
+	&__column {
+	}
+}
+
+// video ===========================================================================================================
+
+.video {
+	flex: 1 1 auto;
+	&__video-row {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	&__column {
+	}
+
+	&__link {
+	}
+
+	&__item {
+		text-align: center;
+	}
+
+	&__video-link {
+	}
+
+	&__img {
+	}
+
+	&__name {
+	}
+
+	&__discription {
+	}
+
+	&__youtube-video {
+	}
+
+	p {
+		margin: 3px 3px;
+		padding: 4px 4px;
+		border: 1px solid #aaaaaa;
+		background-color: #222226;
+		a {
+			color: #aaaaaa;
+			font-size: 20px;
+		}
+	}
+}
+.container {
+}
+
+.footer {
+	&__block {
+	}
+
+	&__row {
+		align-items: flex-start;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__column {
+	}
+}
